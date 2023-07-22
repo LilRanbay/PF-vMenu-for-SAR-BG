@@ -5,7 +5,7 @@
     <Configurations>Release;Debug</Configurations>
     <AssemblyName>vMenuServer.net</AssemblyName>
     <TargetName>$(AssemblyName)</TargetName>
-    <OutputPath>..\..\build\</OutputPath>
+    <OutputPath>K:\FiveM Servers\Boz-Gaming\vMenu</OutputPath>
     <DefineConstants>SERVER</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

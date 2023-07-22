@@ -15,7 +15,7 @@ ui_page 'storage.html'
 default_language "English"
 
 -- Add the names of the jsons added to config/languages here in the current format
-languages 'English, Spanish'
+languages 'English'
 
 -- Adds additional logging, useful when debugging issues.
 client_debug_mode 'false'
@@ -23,13 +23,14 @@ server_debug_mode 'false'
 
 -- Leave this set to '0' to prevent compatibility issues 
 -- and to keep the save files your users.
-experimental_features_enabled '0'
+experimental_features_enabled '1'
 
 -- Files & scripts
 files {
     'Newtonsoft.Json.dll',
     'MenuAPI.dll',
     'config/*.json',
+    'config/**/*.json',
     'storage.html'
 }
 

@@ -327,6 +327,36 @@ namespace vMenuShared
             WPRailgunXM3,
             // MP2023_01 DLC (V 2944)
             WPTecPistol,
+
+            // ADDON WEAPONS
+            WPNavyCarbine,
+            WPMilitaryCarbine,
+            WPVFCombatPistol,
+            WPDPPistol,
+            WPDutyPistol,
+            WPGardonePistol,
+            WPSafetyPistol,
+            WPBeanbag,
+            WPServicePistol,
+            WPFlamethrower,
+            WPFlowers,
+            WPIsraeliRifle,
+            WPFlashbang,
+            WPColBaton,
+            WPFN509,
+            WPStealthCarbine,
+            WPAntiMaterialRifle,
+            WPPrecisionCarbine,
+            WPHeavyPistol9mm,
+            WPModularCarbine,
+            WPCombatRifle,
+            WPRussianSniper,
+            WPEndurancePistol,
+            WPServiceCarbine,
+            WPPoliceRifle,
+            WPMiniShotgun,
+            WPRRClassicSMG,
+            WPBenelli,
             #endregion
 
             // Weapon Loadouts Menu
@@ -369,8 +399,7 @@ namespace vMenuShared
             VCShowSpeaker,
             VCStaffChannel,
             #endregion
-        };
-
+        }
         public static Dictionary<Permission, bool> Permissions { get; private set; } = new Dictionary<Permission, bool>();
         public static bool ArePermissionsSetup { get; set; } = false;
 

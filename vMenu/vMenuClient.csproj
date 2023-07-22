@@ -5,7 +5,7 @@
     <Configurations>Release;Debug</Configurations>
     <AssemblyName>vMenuClient.net</AssemblyName>
     <TargetName>$(AssemblyName)</TargetName>
-    <OutputPath>..\..\build\</OutputPath>
+    <OutputPath>K:\FiveM Servers\Boz-Gaming\vMenu</OutputPath>
     <DefineConstants>CLIENT</DefineConstants>
     <LangVersion>8.0</LangVersion>
   </PropertyGroup>
