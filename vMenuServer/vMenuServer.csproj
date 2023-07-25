@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net452</TargetFramework>
+    <TargetFramework>net472</TargetFramework>
     <DebugType>embedded</DebugType>
     <Configurations>Release;Debug</Configurations>
     <AssemblyName>vMenuServer.net</AssemblyName>
