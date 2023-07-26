@@ -669,14 +669,19 @@
         "malinois"
     ],
     "weapons": [
-        "WEAPON_TRAININGRIFLE",
-        "WEAPON_TRAININGPISTOL",
+        "Weapon_EndurancePistol",
+
+        "Weapon_TrainingPistol",
+        "Weapon_TrainingRifle",
+
+
+
         "weapon_airsoftak47",
         "weapon_airsoftmp5",
         "weapon_airsoftr700",
         "weapon_airsoftr870",
+
         "weapon_snubrevolver",
-        "weapon_endurancepistol",
         "weapon_microsmg2",
         "weapon_40mmlesslethal",
         "weapon_40mmlesslethal2",
@@ -692,7 +697,6 @@
         "weapon_sporty",
         "weapon_woodenbat",
         "weapon_langleypistol",
-        "weapon_flashbang",
         "weapon_pikepole",
         "weapon_hydrantwrench",
         "weapon_fireaxe",

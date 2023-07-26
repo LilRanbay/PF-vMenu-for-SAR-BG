@@ -387,6 +387,7 @@ namespace vMenuClient
             { "weapon_dppistol", GetLabelText("WT_PIST_DP") },
             { "weapon_dutypistol", GetLabelText("WT_PIST_DUTY") },
             { "weapon_safetypistol", GetLabelText("WT_PIST_SFT") },
+            //{ "WEAPON_ENDURANCEPISTOL", GetLabelText("WT_PIST_END") }, // For some reason adding this one just outright breaks the menu? No idea why.
             { "weapon_gardonepistol", GetLabelText("wt_pist_grd") },
             { "WEAPON_BENELLI", GetLabelText("WT_BENELLI") },
             { "weapon_beanbag", GetLabelText("rpch_bean") },
