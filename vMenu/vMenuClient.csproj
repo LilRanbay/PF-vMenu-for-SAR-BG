@@ -5,8 +5,8 @@
     <Configurations>Release;Debug</Configurations>
     <AssemblyName>vMenuClient.net</AssemblyName>
     <TargetName>$(AssemblyName)</TargetName>
-    <OutputPath>K:\FiveM Servers\Boz-Gaming\vMenu</OutputPath>
-    <DefineConstants>CLIENT</DefineConstants>
+	<OutputPath>..\..\PF-vMenu-for-SAR-BG-build</OutputPath>
+	<DefineConstants>CLIENT</DefineConstants>
     <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
