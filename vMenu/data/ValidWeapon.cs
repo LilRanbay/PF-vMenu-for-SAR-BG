@@ -244,7 +244,7 @@ namespace vMenuClient
             { "weapon_safetypistol", GetLabelText("WT_PIST_SFT") }, // RPCH
             { "weapon_endurancepistol", GetLabelText("WT_PIST_END") }, // RPCX
             { "weapon_flamethrower", GetLabelText("WT_FLAMETHROWER") }, // RPCH
-            { "WEAPON_FLASHBANG", GetLabelText("WT_GNADE_FLSH") }, // RPCH
+            { "WEAPON_STUNGRENADE", GetLabelText("WT_GNADE_STUN") }, // RPCH
             { "WEAPON_FLOWER_BOUQUET", GetLabelText("WT_FLOWER_BOUQUET") }, // RPCH
             { "weapon_gardonepistol", GetLabelText("WT_PIST_GRD") }, // RPCH
             { "weapon_heavypistol_02", GetLabelText("WT_HVYPISTO2") }, // RPCX
@@ -395,7 +395,7 @@ namespace vMenuClient
             { "WEAPON_COLBATON", GetLabelText("WT_COLBATON") },
             { "weapon_vfcombatpistol", GetLabelText("wt_pist_vfcbt") },
             { "weapon_flamethrower", GetLabelText("WT_FLAMETHROWER") },
-            { "WEAPON_FLASHBANG", GetLabelText("WT_GNADE_FLSH") },
+            { "WEAPON_STUNGRENADE", GetLabelText("WT_GNADE_STUN") },
             { "WEAPON_FLOWER_BOUQUET", GetLabelText("WT_FLOWER_BOUQUET") },
             { "WEAPON_FN509", GetLabelText("WT_PIST_FN509") },
             { "WEAPON_ISRAELIRIFLE", GetLabelText("WT_RIFLE_IRSL") },
@@ -546,7 +546,7 @@ namespace vMenuClient
             ["weapon_flamethrower"] = Permission.WPFlamethrower,
             ["WEAPON_FLOWER_BOUQUET"] = Permission.WPFlowers,
             ["WEAPON_ISRAELIRIFLE"] = Permission.WPIsraeliRifle,
-            ["WEAPON_FLASHBANG"] = Permission.WPFlashbang,
+            ["WEAPON_STUNGRENADE"] = Permission.WPFlashbang,
             ["WEAPON_POCKETLIGHT"] = Permission.WPFlashlight,
             ["WEAPON_FN509"] = Permission.WPFN509,
             ["WEAPON_STEALTHCARBINE"] = Permission.WPStealthCarbine,
