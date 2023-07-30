@@ -235,6 +235,8 @@ namespace vMenuClient
             //MP2023_01 DLC (V 2944)
             { "weapon_tecpistol", GetLabelText("WTD_TECPISTOL") },
             //ADDONS
+            { "WEAPON_40MMLESSLETHAL", "40mm Less-Lethal Launcher (Green)" },
+            { "WEAPON_40MMLESSLETHAL2", GetLabelText("RPCH_40MM") },
             { "WEAPON_BENELLI", GetLabelText("WT_BENELLI") }, // RPCXB
             { "weapon_classicsmg", GetLabelText("WT_CLASSICSMG")}, // MPRR
             { "WEAPON_COLBATON", GetLabelText("WT_COLBATON") }, // RPCH
@@ -243,17 +245,21 @@ namespace vMenuClient
             { "weapon_dutypistol", GetLabelText("WT_PIST_DUTY") }, // RPCH
             { "weapon_safetypistol", GetLabelText("WT_PIST_SFT") }, // RPCH
             { "weapon_endurancepistol", GetLabelText("WT_PIST_END") }, // RPCX
+            { "WEAPON_FIREAXE", GetLabelText("WT_ME_FIREAXE") },
             { "weapon_flamethrower", GetLabelText("WT_FLAMETHROWER") }, // RPCH
             { "WEAPON_STUNGRENADE", GetLabelText("WT_GNADE_STUN") }, // RPCH
             { "WEAPON_FLOWER_BOUQUET", GetLabelText("WT_FLOWER_BOUQUET") }, // RPCH
             { "weapon_gardonepistol", GetLabelText("WT_PIST_GRD") }, // RPCH
+            { "weapon_halligan", GetLabelText("WT_ME_HALLIGAN") },
             { "weapon_heavypistol_02", GetLabelText("WT_HVYPISTO2") }, // RPCX
+            { "WEAPON_HYDRANTWRENCH", GetLabelText("WT_ME_HYDRANTWRENCH") },
             { "WEAPON_FN509", GetLabelText("WT_PIST_FN509") }, // sar fn509
             { "WEAPON_ISRAELIRIFLE", GetLabelText("WT_RIFLE_IRSL") }, // rpcx israeli rifle
             { "weapon_militarycarbine", GetLabelText("WT_MILCARBINE") }, // RPCH
             { "WEAPON_MINISHOTGUN", GetLabelText("WT_MNSHOTGUN") }, // RPCXB
-            { "WEAPON_PROTORIFLE", GetLabelText("WT_PROTORFL") }, // RPCX
             { "weapon_navycarbine", GetLabelText("WT_NAVYCARBINE") }, // RPCH
+            { "WEAPON_PIKEPOLE", GetLabelText("WT_ME_PIKEPOLE") },
+            { "WEAPON_PROTORIFLE", GetLabelText("WT_PROTORFL") }, // RPCX
             { "WEAPON_POCKETLIGHT", GetLabelText("WT_POCKETLIGHT") }, // rpcx pocketlight
             { "WEAPON_POLICERIFLE", GetLabelText("WT_POLICERIFLE") }, // rpcxB Police Rifle
             { "WEAPON_PRECISIONCARBINE", GetLabelText("WT_PRECISIONCRBN") }, // rpcx precision carbine
@@ -383,26 +389,32 @@ namespace vMenuClient
             //MP2023_01 DLC (V 2944)
             { "weapon_tecpistol", GetLabelText("WT_TECPISTOL") },
             //ADDONS
+            { "WEAPON_40MMLESSLETHAL", "40mm Less-Lethal Launcher (Green)" },
+            { "WEAPON_40MMLESSLETHAL2", GetLabelText("RPCH_40MM") },
             { "WEAPON_COMBATRIFLE", GetLabelText("WT_RIFLE_COMR") },
             { "weapon_dppistol", GetLabelText("WT_PIST_DP") },
             { "weapon_dutypistol", GetLabelText("WT_PIST_DUTY") },
             { "weapon_safetypistol", GetLabelText("WT_PIST_SFT") },
             //{ "WEAPON_ENDURANCEPISTOL", GetLabelText("WT_PIST_END") }, // For some reason adding this one just outright breaks the menu? No idea why.
             { "weapon_gardonepistol", GetLabelText("wt_pist_grd") },
+            { "weapon_halligan", GetLabelText("WT_ME_HALLIGAN") },
             { "WEAPON_BENELLI", GetLabelText("WT_BENELLI") },
             { "weapon_beanbag", GetLabelText("rpch_bean") },
             { "weapon_servicepistol", GetLabelText("wt_pist_vfser") },
             { "WEAPON_COLBATON", GetLabelText("WT_COLBATON") },
             { "weapon_vfcombatpistol", GetLabelText("wt_pist_vfcbt") },
+            { "WEAPON_FIREAXE", GetLabelText("WT_ME_FIREAXE") },
             { "weapon_flamethrower", GetLabelText("WT_FLAMETHROWER") },
             { "WEAPON_STUNGRENADE", GetLabelText("WT_GNADE_STUN") },
             { "WEAPON_FLOWER_BOUQUET", GetLabelText("WT_FLOWER_BOUQUET") },
             { "WEAPON_FN509", GetLabelText("WT_PIST_FN509") },
+            //{ "weapon_heavypistol_02", GetLabelText("WT_HVYPISTO2") }, // RPCX
             { "WEAPON_ISRAELIRIFLE", GetLabelText("WT_RIFLE_IRSL") },
             { "weapon_militarycarbine", GetLabelText("WT_MILCARBINE") },
             { "WEAPON_MINISHOTGUN", GetLabelText("WT_MNSHOTGUN") },
-            { "WEAPON_PROTORIFLE", GetLabelText("WT_PROTORFL") },
             { "weapon_navycarbine", GetLabelText("WT_NAVYCARBINE") },
+            { "WEAPON_PIKEPOLE", GetLabelText("WT_ME_PIKEPOLE") },
+            { "WEAPON_PROTORIFLE", GetLabelText("WT_PROTORFL") },
             { "WEAPON_POCKETLIGHT", GetLabelText("WT_POCKETLIGHT") },
             { "WEAPON_POLICERIFLE", GetLabelText("WT_POLICERIFLE") },
             { "WEAPON_PRECISIONCARBINE", GetLabelText("WT_PRECISIONCRBN") },
@@ -560,6 +572,12 @@ namespace vMenuClient
             ["WEAPON_BENELLI"] = Permission.WPBenelli,
             ["WEAPON_MINISHOTGUN"] = Permission.WPMiniShotgun,
             ["weapon_classicsmg"] = Permission.WPRRClassicSMG,
+            ["WEAPON_40MMLESSLETHAL"] = Permission.WP40MikeMike,
+            ["WEAPON_40MMLESSLETHAL2"] = Permission.WP40MikeMike,
+            ["Weapon_halligan"] = Permission.WPHalligan,
+            ["WEAPON_PIKEPOLE"] = Permission.WPPikePole,
+            ["WEAPON_HYDRANTWRENCH"] = Permission.WPHydrantWrench,
+            ["WEAPON_FIREAXE"] = Permission.WPFireAxe,
         };
         #endregion
 

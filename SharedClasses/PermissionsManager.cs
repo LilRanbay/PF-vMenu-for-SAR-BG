@@ -357,6 +357,11 @@ namespace vMenuShared
             WPMiniShotgun,
             WPRRClassicSMG,
             WPBenelli,
+            WP40MikeMike,
+            WPHalligan,
+            WPPikePole,
+            WPHydrantWrench,
+            WPFireAxe,
             #endregion
 
             // Weapon Loadouts Menu
